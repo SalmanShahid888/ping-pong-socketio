@@ -1,7 +1,7 @@
 // Canvas Related
 const canvas = document.createElement("canvas");
 const context = canvas.getContext("2d");
-const socket = io("https://ping-pong-socketio.netlify.app/");
+const socket = io("/");
 let isReferee = false;
 let paddleIndex = 0;
 
