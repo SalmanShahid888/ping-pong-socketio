@@ -46,8 +46,14 @@ function renderIntro() {
 
   // Intro Text
   context.fillStyle = "white";
-  context.font = "32px Courier New";
+  context.font = "25px Courier New";
   context.fillText("Waiting for opponent...", 20, canvas.height / 2 - 30);
+  context.fillText(
+    "If you want to test open link in",
+    20,
+    canvas.height / 1 - 50
+  );
+  context.fillText("another browser", 20, canvas.height / 1 - 20);
 }
 
 // Render Everything on Canvas
