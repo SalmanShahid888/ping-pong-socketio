@@ -1,7 +1,9 @@
 // Canvas Related
 const canvas = document.createElement("canvas");
 const context = canvas.getContext("2d");
-const socket = io("http://localhost:3000");
+const socket = io(
+  "https://64cfa4392ca8575318a963cb--unique-banoffee-51d2d2.netlify.app/"
+);
 let isReferee = false;
 let paddleIndex = 0;
 
